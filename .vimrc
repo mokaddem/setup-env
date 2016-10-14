@@ -37,6 +37,13 @@ let g:airline#extensions#tabline#enabled = 1
   let g:airline#extensions#branch#format = 0
 
 
+" enable/disable syntastic integration >
+  let g:airline#extensions#syntastic#enabled = 1
+
+" enable/disable virtualenv integration >
+  let g:airline#extensions#virtualenv#enabled = 1
+
+
 "------------------------------------------------------------
 " Features {{{1
 "
@@ -153,7 +160,9 @@ set number
  
 " Hihgligth the current line
 set cursorline
-hi cursorLine term=bold ctermbg=darkred ctermfg=NONE cterm=NONE guibg=darkred guifg=NONE
+hi cursorLine term=bold ctermbg=darkgrey ctermfg=NONE cterm=NONE guibg=darkgrey guifg=NONE
+
+:highlight Normal ctermfg=white ctermbg=black
 
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200
