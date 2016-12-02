@@ -5,7 +5,7 @@ sudo apt-get install vim-gnome
 mkdir -p ~/.vim
 
  ##Installing Pathogen
- mkdir -p autoload
+ mkdir -p ~/.vim/autoload
  curl -Lls https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim > ~/.vim/autoload/pathogen.vim
 
  ##Installing airline
