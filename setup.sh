@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Installing curl
+sudo apt-get install curl
+
 #Installing vim
 sudo apt-get install vim-gnome
 mkdir -p ~/.vim
