@@ -30,6 +30,12 @@ mkdir -p ~/.vim
  cd ..
  rm -r fonts/
 
+ ##Installing vim-indentLine
+ dir=~/.vim/bundle/indentLine
+ if [ ! -d "$dir" ]; then
+  git clone https://github.com/Yggdroot/indentLine.git ~/.vim/bundle/indentLine
+ fi
+
  # Copying .vimrc
  cp -i .vimrc ~/
 
