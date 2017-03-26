@@ -30,6 +30,12 @@ mkdir -p ~/.vim
  cd ..
  rm -r fonts/
 
+ ##Installing vim-gitgutter
+  dir=~/.vim/bundle/vim-gitgutter
+ if [ ! -d "$dir" ]; then
+  git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter
+ fi
+
  ##Installing vim-indentLine
  dir=~/.vim/bundle/indentLine
  if [ ! -d "$dir" ]; then
