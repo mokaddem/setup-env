@@ -57,5 +57,5 @@ mkdir -p ~/.vim
 sudo apt-get install screen
 cp -i .screenrc ~/
 
-#Installing gitk
-sudo apt-get install gitk -y
+#Installing tig
+sudo apt-get install tig -y
