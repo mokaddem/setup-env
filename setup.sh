@@ -49,9 +49,8 @@ mkdir -p ~/.vim
   :Helptags #generate helptags
   # Modify font into powerline font in terminal
 
-
-
-
+# Copying .bashrc
+ cp -i .bashrc ~/
 
 #Installing screen
 sudo apt-get install screen
