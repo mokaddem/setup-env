@@ -45,6 +45,9 @@ mkdir -p ~/.vim
  # Copying .vimrc
  cp -i .vimrc ~/
 
+ # Copying .gitconfig
+ cp -i .gitconfig ~/
+
  #Command to run
   :Helptags #generate helptags
   # Modify font into powerline font in terminal
